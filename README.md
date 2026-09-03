@@ -8,8 +8,18 @@
 
 每一章都有真机跑出来的截图、翻车点，以及花了多少钱、多长时间。
 
-它跟另外两本的关系：《笨办法学 Agent》上册讲一个 agent 里面是什么，下册讲怎么做一个给别人用的 agent 放到线上。
-这一本讲自己用。三本可以各自单独读。
+## 这套书一共三本
+
+《笨办法学 Agent》系列现在有三本，各自独立，不要求先后顺序：
+
+- **[笨办法学 Agent · 亲手打造一个 harness](https://github.com/Leihb/learn-agent-the-hard-way)**——
+  不用任何框架，32 个练习亲手写出一个 agent harness 的每一层，目的是看懂。
+- **[笨办法学 Agent · 用 LangGraph 上线](https://github.com/Leihb/langgraph-in-action)**——
+  用 LangGraph 把真实场景的 agent 做出来、放到线上给人用，目的是上线。
+- **[让 agent 替你干活 · 不写代码，用 octo 把活干完](https://github.com/Leihb/octo-at-work)（这一本）**——
+  不写一行代码，用装在自己电脑上的 octo 把日常的活干完，给不写代码的打工人。
+
+三本共享同一句话：agent 没有秘密架构，会不会用，看你会不会把活/场景/工具边界说清楚。
 
 ## 在线阅读
 
