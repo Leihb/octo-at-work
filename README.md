@@ -23,7 +23,7 @@
 
 ## 在线阅读
 
-**https://leihb.github.io/octo-at-work/**
+**https://leihb.com/octo-at-work/**
 
 每次推送自动重新发布。GitHub 上的 README 只适合了解项目，正文、截图和目录去网站看。
 
