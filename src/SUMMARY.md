@@ -13,7 +13,7 @@
 - [第 3 章 把一个乱文件夹整理干净](part1/ch03-tidy-folder.md)
 - [第 4 章 一句话出一张 Excel](part1/ch04-excel.md)
 - [第 5 章 一份 PPT 初稿](part1/ch05-ppt.md)
-- [第 6 章 三小时会议录音变纪要和待办](part1/ch06-meeting.md)
+- [第 6 章 两小时会议记录变纪要和待办](part1/ch06-meeting.md)
 - [第 7 章 让它记住你的口味](part1/ch07-memory.md)
 - [第 8 章 写你的第一份说明书](part1/ch08-first-skill.md)
 - [第 9 章 让它上网查](part1/ch09-web.md)
