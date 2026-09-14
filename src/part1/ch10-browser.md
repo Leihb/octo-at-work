@@ -162,7 +162,7 @@ steps:
 
 **第一次，原样回放。** 前五步全过，第六步"点击评论框"失败：
 
-> step 6 (click): no element matches the recorded fingerprint (label="说点什么...", role="", tag="div") — the page changed or the target is ambiguous (self-heal gave up: heal: model could not identify a replacement selector)
+> step 6 (click): no element matches the recorded fingerprint (label="说点什么...", role="", tag="div") — the page changed or the target is ambiguous
 
 那一步就是我手滑点的评论框。错误信息后面跟了一段诊断指引：录制文件在哪、原始事件在哪、
 怎么区分"录制时漏了"、"整理时错了"、"页面变了"。这段是给你看的，也是给它看的。
@@ -171,11 +171,7 @@ steps:
 再回放，五步全过，一分钟，页面停在那篇笔记上。**录制是一个文本文件，录错了就删那几行。**
 
 回放本身不叫模型，是浏览器按步骤点，所以快、也稳。每一步先等目标元素出现再点；
-页面结构变了，它会拿录制时存的 `label` 和 `neighbor_text` 去重新找；找不到才叫模型来"自愈"，
-让模型看着页面上现在有的元素挑一个替代。上面第六步就是自愈没挑出来，如实报错。
-
-自愈这个机制我在写这一章的时候发现了一个 bug：它修好一步之后写回文件的选择器，有可能是一个页面上不存在的，
-下次回放全靠 `label` 兜着才没事。这个问题已经报给 octo（issue #2404），修好之前这一章不展开它。
+页面结构变了，它会拿录制时存的 `label` 和 `neighbor_text` 去重新找；找不到就如实报错，像上面第六步那样。
 
 ## 你要重点检查什么
 
